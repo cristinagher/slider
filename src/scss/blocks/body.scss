@@ -2,6 +2,24 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #111;
-  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(2, 2, 37)
+  
+}
+.slider {
+  position: relative;
+  width: 60%;
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+}
+.images img{
+  height: 400px;
+  width: 100%;
+  transition: all 0.15s ease;
 }
